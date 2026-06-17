@@ -76,7 +76,7 @@ import java.util.Queue;
             }
         }
  */
-public class day10 {
+/*public class day10 {
     static void main() {
         String name = "null";
         try {
@@ -96,3 +96,4 @@ public class day10 {
         System.out.println("Name :" + name);
     }
 }
+*/
