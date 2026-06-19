@@ -1,7 +1,7 @@
-import java.util.HashMap;
+/*import java.util.HashMap;
 import java.util.Map;
 
-/*import java.util.HashSet;
+import java.util.HashSet;
 import java.util.Set;
 public class day11 {
     public static void main(String[] args) {
@@ -12,11 +12,11 @@ public class day11 {
         Set.add("Madhu 2");
         Set.add("Madhu 2");
         for (String s : Set) {
-            System.out.println(s);
+            System.out.println(s);S
         }
-    }
+\   }
 }
-*/
+
  public class day11{
       public static void main(String[]args){
           Map<String,Integer> person = new HashMap<>();
@@ -24,10 +24,11 @@ public class day11 {
           person.put("john",78);
           person.put("Aravindhan",67);
           person.put("Ramesh", 90);
-                  System.out.println(person.get("percent"));
-          person.entrySet().forEach(entry ->{
+                  System.out.println(person.get("percent")); person.entrySet().forEach(entry ->{
               System.out.println(entry.getKey() + " : " + entry.getValue());
           });
 
       }
 }
+
+ */

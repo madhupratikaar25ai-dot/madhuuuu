@@ -1,4 +1,4 @@
-public class day9 {
+/*public class day9 {
     static class College implements AutoCloseable {
         College(){
             System.out.println("vetias");
@@ -39,3 +39,4 @@ public class day9 {
         }
     }
 }
+*/
