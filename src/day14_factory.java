@@ -1,9 +1,10 @@
-public class day14_factory {
-        interface  Transaction{
+ public class day14_factory {
+    interface Transaction {
         void send(String to, String message);
     }
 
-    class CreditTransaction implements  Transaction{
+
+    class CreditTransaction implements Transaction {
         @Override
         public void send(String to, String message) {
             System.out.println("Credited 1500: " + message + ", to " + to);
@@ -28,7 +29,6 @@ public class day14_factory {
     static void main() {
         day14_factory factory = new day14_factory();
         String type = "debit";
-        getNotification(factory,type).send("36900976876","amount 800 debited");
-
+        getNotification(factory, type).send("36900976876", "amount 800 debited");
     }
 }
